@@ -7,9 +7,9 @@
       },
       "includePath": [
         "/opt/ros/melodic/include/**",
-        "/home/toor/catkin_ws/src/jetbot_teleop/include/**",
+        "~/catkin_ws/src/jetbot_teleop/include/**",
         "/usr/include/**",
-        "/home/toor/catkin_ws/devel/include/**"
+        "~/catkin_ws/devel/include/**"
       ],
       "name": "ROS"
     }
