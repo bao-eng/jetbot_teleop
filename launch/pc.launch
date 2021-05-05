@@ -52,4 +52,6 @@
 
   <node type="rviz" name="rviz" pkg="rviz" args="-d $(find jetbot_teleop)/rviz/jetbot.rviz" />
 
+  <node name = "rqt_dashboard" pkg = "rqt_gui" type = "rqt_gui" respawn = "false" output = "screen" args = "--perspective-file $(find jetbot_teleop)/rqt_config/jetbot.perspective"/>
+
 </launch>
